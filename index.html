@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shankar portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/535b362b26.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.0-web/css/all.min.css">
+    
+
+
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+           <nav>
+  <img src="images/logoO.png" class="logo" />
+  <i class="fas fa-bars menu1" onclick="showMenu()"></i>
+<ul id="sidemenu">
+  <li><a href="#header">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#portfolio">Portfolio</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <i class="fas fa-times" onclick="hideMenu()"></i>
+</ul>
+
+
+</nav>
+
+
+            <div class="header-text">
+                 <p>Data Analyst</p>
+                 <h1>Hi, I'm <span>Shankar</span> Anil <br>From India</h1>
+            </div>
+        </div>
+
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+             <div class="about-col-1">
+             <img src="images/userr.jpeg">
+            </div>
+             <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A highly motivated and detail-oriented recent graduate with a strong foundation
+                    in data analysis, eager to apply my skills in Python, SQL, and data visualization
+                    tools to solve real-world business problems. Passionate about uncovering insights
+                    from complex datasets and communicating key findings through compelling reports 
+                    and presentations. Seeking a challenging entry-level Data Analyst role to contribute
+                    to data-driven decision making within a dynamic team.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analytics</span><br>Data cleaning, analysis, and visualization using Python and SQL.</li>
+                            <li><span>Cloud & AI Tools</span><br>Hands-on with IBM Cloud, AutoAI, and cloud-based analytics tools.</li>
+                            <li><span>Web Development</span><br>Front-end design using HTML, CSS, and JavaScript; basic React.js for interactive components.</li>
+                            <li><span>Version Control & Tools</span><br>Proficient with Git, GitHub, and VS Code for project development and collaboration.</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2026- current</span><br>Data Analyst at -----</li>
+                            <li><span>2025</span><br>Internship at </li>
+                            <li><span>July-Aug 2025</span><br>AI and Cloud Intern – IBM SkillsBuild at Edunet Foundation </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Google Data Analytics – Coursera 2025 </span><br></li>
+                            <li><span>B.Tech CSE (DS) from JSSATE Noida 2023-2026</span><br></li>
+                            <li><span>Diploma in ME from Eshan College, Mathura</span><br></li>
+                            <li><span>Highschool from Dayanand Bal Mandir, Agra</span><br></li>
+                            
+                        </ul>
+
+                    </div>
+             </div>    
+            </div>
+        </div>
+    </div>
+    <!-------services--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <h2>Data Analyst</h2>
+                    <p>Collecting, cleaning, analyzing, and interpreting data to identify trends, patterns, and insights, ultimately helping organizations make informed decisions and improve performance.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating visually appealing and user-friendly websites, focusing on aesthetics, layout, navigation, and ensuring a seamless experience across devices and screen sizes.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <h2>App Development</h2>
+                    <p>Encompass the entire process of creating software applications, from initial planning and design to development, testing, deployment, and ongoing maintenance, for various platforms like mobile, web, and desktop.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>E-Book Store</h3>
+                        <p>A responsive online bookstore web app that enhances accessibility and extends reach beyond traditional stores.</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the tallented prople around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg">
+                    <div class="layer">
+                        <h3>AI & Cloud Internship Project</h3>
+                        <p>AI and Cloud-based analytics project using IBM Cloud AutoAI tools to build and deploy a small machine learning workflow.</p>
+                        <a href="https://github.com/Shankar-anil/IBM-Cloud-Project-Edunet-Foundation"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------contact------------>
+    <div id="contact"class="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:shankaranil9@gmail.com">shankaranil9@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone-volume"></i><a href="tel: +917248843190">+91 7248843190</a></p>
+                <p><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/917248843190" target="_blank">Chat on WhatsApp
+  </a>
+</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shankar.az.1/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://x.com/ShankarAni1270"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/im_philophobic/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shankar-anil-550456134/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Shankar-anil" target="_blank">  <i class="fa-brands fa-github"></i>
+</a>
+
+                </div>
+                <!-- fixed: remove leading slash, remove spaces in filename, add download attribute -->
+                <a href="images/Shankar_ Anil _shankaranil9@gmail.com.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span> 
+            </div>
+        </div> <!-- end .container -->
+        <div class="copyright">
+            <p>Copyright © shankaranil Created with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <a href="#header" class="scroll-top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function showMenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function hideMenu() {
+    sidemenu.style.right = "-200px";
+  }
+
+  // ✅ Close menu automatically when a link is clicked
+  const navLinks = document.querySelectorAll("nav ul li a");
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      hideMenu();
+    });
+  });
+</script>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function showMenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function hideMenu() {
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwzZSPbgXO0P74UKKU2qOVEuhh370nS4d4g7BcuOFP1EdYmSg1he-V42sUxDqo85J6Lmw/exec';
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById("msg");
+  const btn = form.querySelector("button") || form.querySelector("input[type='submit']");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    // Disable button & show instant message
+    if (btn) {
+      btn.disabled = true;
+      btn.innerText = "Sending...";
+    }
+    msg.innerHTML = "Sending your message...";
+
+    // Send data to Google Sheet (async)
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        msg.innerHTML = " Message sent successfully!";
+        msg.style.color = "limegreen";
+        form.reset();
+
+        // Re-enable button and clear message after 5 s
+        setTimeout(() => {
+          msg.innerHTML = "";
+          if (btn) {
+            btn.disabled = false;
+            btn.innerText = "Submit";
+          }
+        }, 5000);
+      })
+      .catch(error => {
+        msg.innerHTML = "❌ Error sending message. Please try again.";
+        msg.style.color = "red";
+        console.error('Error!', error.message);
+
+        // Re-enable after 3 s
+        setTimeout(() => {
+          msg.innerHTML = "";
+          if (btn) {
+            btn.disabled = false;
+            btn.innerText = "Submit";
+          }
+        }, 3000);
+      });
+  });
+</script>
+
+
+
+</body>
+</html>
